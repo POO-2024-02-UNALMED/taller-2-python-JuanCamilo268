@@ -7,19 +7,19 @@ class Asiento:
     def cambiarColor(nColor):
         nColor = nColor.lower()
         if nColor == "rojo":
-            this.color = nColor
+            self.color = nColor
 
         elif nColor == "verde":
-            this.color == nColor
+            self.color == nColor
         
         elif nColor == "amarillo":
-            this.color == nColor
+            self.color == nColor
 
         elif nColor == "blanco":
-            this.color == nColor
+            self.color == nColor
 
         elif nColor == "negro":
-            this.color == nColor
+            self.color == nColor
        
         
         
