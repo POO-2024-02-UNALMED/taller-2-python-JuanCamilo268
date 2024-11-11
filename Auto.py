@@ -13,7 +13,7 @@ class Auto:
     def cantidadAsientos(self):
         cantidad = 0
         for i in self.asientos:
-            if i != null:
+            if i != None:
                 cantidad += 1
         return cantidad
     
