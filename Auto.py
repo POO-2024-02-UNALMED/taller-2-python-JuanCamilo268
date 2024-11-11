@@ -1,3 +1,5 @@
+from Asiento import Asiento
+from Motor import Motor
 class Auto:
     cantidadCreados = 0
     def __init__(self, modelo, precio,  marca, motor, registro, asientos = []):
