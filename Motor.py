@@ -4,10 +4,10 @@ class Motor:
         self.tipo = tipo
         self.registro = registro
 
-    def cambiarRegistro(reg):
+    def cambiarRegistro(self, reg):
         self.registro = reg
 
-    def asignarTipo(tip):
+    def asignarTipo(self, tip):
         tip = tip.lower()
         if tip == "electrico":
             self.tipo = tip
