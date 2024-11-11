@@ -24,7 +24,8 @@ class Auto:
             return verificar
         else:
             for i in self.asientos:
-                if self.registro != i.registro:
-                    verificar = "Las piezas no son originales"
-                    return verificar
+                if i != None:
+                    if self.registro != i.registro:
+                        verificar = "Las piezas no son originales"
+                        return verificar
         return verificar
